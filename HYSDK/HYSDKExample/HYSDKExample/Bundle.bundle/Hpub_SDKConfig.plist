@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HYSDK</key>
+	<dict>
+		<key>version</key>
+		<string>1.0</string>
+		<key>canShowAC</key>
+		<string>0</string>
+		<key>channelId</key>
+		<string>huanyu</string>
+		<key>channelNum</key>
+		<string>1128</string>
+		<key>platformOS</key>
+		<string>4</string>
+	</dict>
+</dict>
+</plist>

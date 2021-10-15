@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  HYNewSDK
+//
+//  Created by K on 2020/8/17.
+//  Copyright © 2020 jjwp. All rights reserved.
+//
+
+
+
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#import "UIView+Extension.h"
+#define AD_ID @"1"
+#define Partner_ID @"2"
+#define SDK_Version @"1.1.0"
+
+#endif
+
+
+
+
+#endif /* PrefixHeader_pch */

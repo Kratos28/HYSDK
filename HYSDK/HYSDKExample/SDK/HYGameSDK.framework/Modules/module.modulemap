@@ -1,0 +1,6 @@
+framework module HYGameSDK {
+  umbrella header "HYGameSDK.h"
+
+  export *
+  module * { export * }
+}

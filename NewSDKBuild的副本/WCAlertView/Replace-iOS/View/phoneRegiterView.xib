@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="phoneRegiterView">
+            <rect key="frame" x="0.0" y="0.0" width="421" height="121"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Lgz-Te-DRA">
+                    <rect key="frame" x="0.0" y="0.0" width="421" height="121"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DJk-Lx-7LJ">
+                            <rect key="frame" x="0.0" y="0.0" width="421" height="40.5"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zgx-7v-heP" customClass="acountTextFied">
+                                    <rect key="frame" x="0.0" y="0.0" width="421" height="40.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="zgx-7v-heP" secondAttribute="bottom" id="73Q-gZ-QJS"/>
+                                <constraint firstAttribute="trailing" secondItem="zgx-7v-heP" secondAttribute="trailing" id="JVs-dt-zbt"/>
+                                <constraint firstItem="zgx-7v-heP" firstAttribute="leading" secondItem="DJk-Lx-7LJ" secondAttribute="leading" id="blc-Yg-LA5"/>
+                                <constraint firstItem="zgx-7v-heP" firstAttribute="top" secondItem="DJk-Lx-7LJ" secondAttribute="top" id="mhU-vf-58g"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hwk-oN-O1a">
+                            <rect key="frame" x="0.0" y="40.5" width="421" height="40"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xxl-rD-Q6q" customClass="passwordTextField">
+                                    <rect key="frame" x="0.0" y="0.0" width="421" height="40"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="xxl-rD-Q6q" secondAttribute="bottom" id="2mz-nJ-Ku8"/>
+                                <constraint firstItem="xxl-rD-Q6q" firstAttribute="top" secondItem="hwk-oN-O1a" secondAttribute="top" id="7oH-MC-Nwo"/>
+                                <constraint firstAttribute="trailing" secondItem="xxl-rD-Q6q" secondAttribute="trailing" id="KLH-kP-Gif"/>
+                                <constraint firstItem="xxl-rD-Q6q" firstAttribute="leading" secondItem="hwk-oN-O1a" secondAttribute="leading" id="kGs-0M-YGC"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WDq-Jc-cUT">
+                            <rect key="frame" x="0.0" y="80.5" width="421" height="40.5"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gax-0s-wXk" customClass="codeTextField">
+                                    <rect key="frame" x="0.0" y="0.0" width="421" height="40.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="Gax-0s-wXk" firstAttribute="top" secondItem="WDq-Jc-cUT" secondAttribute="top" id="Elk-lN-sbJ"/>
+                                <constraint firstAttribute="bottom" secondItem="Gax-0s-wXk" secondAttribute="bottom" id="P9P-Zc-M3R"/>
+                                <constraint firstAttribute="trailing" secondItem="Gax-0s-wXk" secondAttribute="trailing" id="X7d-SM-L0K"/>
+                                <constraint firstItem="Gax-0s-wXk" firstAttribute="leading" secondItem="WDq-Jc-cUT" secondAttribute="leading" id="h5o-Mx-jOn"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Lgz-Te-DRA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Jh7-sL-qMc"/>
+                <constraint firstItem="Lgz-Te-DRA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="YqW-V9-MWt"/>
+                <constraint firstAttribute="trailing" secondItem="Lgz-Te-DRA" secondAttribute="trailing" id="dvK-sx-3f3"/>
+                <constraint firstAttribute="bottom" secondItem="Lgz-Te-DRA" secondAttribute="bottom" id="lrI-XG-v5B"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="KLdurationImageView" destination="zgx-7v-heP" id="oRX-pL-DlB"/>
+                <outlet property="KLvignetting" destination="Gax-0s-wXk" id="w4D-hL-lJ5"/>
+                <outlet property="KLprePhaseDate" destination="xxl-rD-Q6q" id="irY-Jn-cIg"/>
+            </connections>
+            <point key="canvasLocation" x="116.66666666666667" y="79.352678571428569"/>
+        </view>
+    </objects>
+</document>
